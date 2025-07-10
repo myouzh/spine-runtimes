@@ -1,4 +1,4 @@
-# Spine Runtimes
+# Fixed iOS Spine Runtimes
 
 This GitHub project hosts the Spine Runtimes which are needed to use [Spine](http://esotericsoftware.com/) 2D skeletal animation data with various game toolkits.
 
