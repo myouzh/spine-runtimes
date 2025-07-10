@@ -1,6 +1,11 @@
 # Fixed iOS Spine Runtimes
 
-This GitHub project hosts the Spine Runtimes which are needed to use [Spine](http://esotericsoftware.com/) 2D skeletal animation data with various game toolkits.
+修复iOS在pma时候的透明度过渡曝光的问题。
+  auto f_a = skeleton.getColor().a * slot.getColor().a * attachmentColor->a ;
+	uint8_t r = static_cast<uint8_t>(skeleton.getColor().r * slot.getColor().r * attachmentColor->r * f_a * 255);
+	uint8_t g = static_cast<uint8_t>(skeleton.getColor().g * slot.getColor().g * attachmentColor->g * f_a * 255);
+	uint8_t b = static_cast<uint8_t>(skeleton.getColor().b * slot.getColor().b * attachmentColor->b *  f_a * 255);
+  uint8_t a = static_cast<uint8_t>(f_a * 255);
 
 ## Licensing
 
