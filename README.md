@@ -1,7 +1,7 @@
 # Fixed iOS Spine Runtimes
 
 Fixed：修复iOS在pma时候的透明度过渡曝光的问题。
-
+Fixed: Fixed iOS transparency overexposure at pma.
 
 
 ## Documentation
